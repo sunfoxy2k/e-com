@@ -9,7 +9,7 @@ export const dbConfig = {
 
 export const IS_PRODUCTION = process.env.NODE_ENV === 'production';
 
-export const FEAddress = IS_PRODUCTION ? "https://sushifood-fe.herokuapp.com" : "http://localhost:3000";
+export const FEAddress = 'http://54.151.190.141:3030'
 
 export const saltRounds = process.env.SALT_ROUND ? parseInt(process.env.SALT_ROUND, 10) : 10;
 export const jwtSecret = process.env.JWT_SECRET || 'abcdef';
