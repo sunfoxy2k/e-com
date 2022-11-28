@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1112d269.chunk.css",
+    "main.js": "/static/js/main.aa8931d0.chunk.js",
+    "main.js.map": "/static/js/main.aa8931d0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.aa1e3f3e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.aa1e3f3e.js.map",
+    "static/js/2.9e4052c6.chunk.js": "/static/js/2.9e4052c6.chunk.js",
+    "static/js/2.9e4052c6.chunk.js.map": "/static/js/2.9e4052c6.chunk.js.map",
+    "static/js/3.63cbd412.chunk.js": "/static/js/3.63cbd412.chunk.js",
+    "static/js/3.63cbd412.chunk.js.map": "/static/js/3.63cbd412.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.1112d269.chunk.css.map": "/static/css/main.1112d269.chunk.css.map",
+    "static/js/2.9e4052c6.chunk.js.LICENSE.txt": "/static/js/2.9e4052c6.chunk.js.LICENSE.txt",
+    "static/media/Banner.55d89095.jpg": "/static/media/Banner.55d89095.jpg",
+    "static/media/close-box.2ce7a772.png": "/static/media/close-box.2ce7a772.png",
+    "static/media/generic-profile-icon.d2898ed5.png": "/static/media/generic-profile-icon.d2898ed5.png",
+    "static/media/login-icon.e2566675.svg": "/static/media/login-icon.e2566675.svg",
+    "static/media/mail.2c378c9e.png": "/static/media/mail.2c378c9e.png",
+    "static/media/momo.5eb38c94.png": "/static/media/momo.5eb38c94.png",
+    "static/media/open-box.42b938aa.png": "/static/media/open-box.42b938aa.png",
+    "static/media/salmonSushi.f53b423c.jpg": "/static/media/salmonSushi.f53b423c.jpg",
+    "static/media/shippingCar.cebdb8d9.png": "/static/media/shippingCar.cebdb8d9.png",
+    "static/media/sushi.b97b468c.png": "/static/media/sushi.b97b468c.png",
+    "static/media/sushiIcon.d73f34ba.png": "/static/media/sushiIcon.d73f34ba.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aa1e3f3e.js",
+    "static/js/2.9e4052c6.chunk.js",
+    "static/css/main.1112d269.chunk.css",
+    "static/js/main.aa8931d0.chunk.js"
+  ]
+}
