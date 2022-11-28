@@ -70,7 +70,7 @@ viewBox="0 0 32 32"><path d="M 16 4 C 9.3844276 4 4 9.3844276 4 16 C 4 22.615572
                     <Link to="/">
                         <img className="w-20" src={Icon}/>
                     </Link>
-                    <p className="mt-6 text-xs lg:text-sm leading-none text-gray-900 dark:text-gray-50">2021 E-sushi.</p>
+                    <p className="mt-6 text-xs lg:text-sm leading-none text-gray-900 dark:text-gray-50">Fast Yummy</p>
                 </div>
             </footer>
         </div>
