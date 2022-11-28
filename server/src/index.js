@@ -20,7 +20,7 @@ const port = process.env.PORT || 3030;
 let corsOptions = {
   origin: FEAddress,
   //origin: "http://localhost:4200",
-  //origin: "*", //doesn't work with cookies in browser
+  // origin: "*", //doesn't work with cookies in browser
   credentials: true,
 };
 app.use(cookieParser()); //not sure if needed
