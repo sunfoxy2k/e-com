@@ -7,9 +7,9 @@ export const dbConfig = {
     url: "mongodb+srv://admin:12345@cluster0.qhppy.mongodb.net/?retryWrites=true&w=majority"
 };
 
-export const IS_PRODUCTION = process.env.NODE_ENV === 'production';
+export const IS_PRODUCTION = process.env.NODE_ENV ? process.env.NODE_ENV === 'production' : false;
 
-export const FEAddress = 'http://54.151.190.141'
+export const FEAddress = 'http://13.212.205.180'
 
 export const saltRounds = process.env.SALT_ROUND ? parseInt(process.env.SALT_ROUND, 10) : 10;
 export const jwtSecret = process.env.JWT_SECRET || 'abcdef';
@@ -21,10 +21,7 @@ export const accessKey = "ZaJDPNooBAEIDkLd";
 export const secretkey = "apzcpZayg1uDeim32NUAspfVAHjUjvez";
 // export const orderId = requestId;
 export const redirectUrl = FEAddress;
-export const ipnUrl = 
-    `${IS_PRODUCTION 
-        ? 'https://e-sushi-be.herokuapp.com' 
-        : 'http://1a98-14-169-198-135.ngrok.io'}/webhook/momo`;
+export const ipnUrl = `${FEAddress}/webhook/momo`;
 export const requestType = "captureWallet"
 export const extraData = ""; //pass empty value if your merchant does not have stores
 // END MOMO STUFF
